@@ -14,6 +14,7 @@ Route::get('/', fn() => view('home'));
 Route::get('/about', fn() => view('about'));
 Route::get('/services', fn() => view('services'));
 Route::get('/products', fn() => view('products'));
+Route::get('/store', fn() => view('store'));
 Route::get('/agrotourism', fn() => view('agrotourism'));
 Route::get('/news', fn() => view('news'));
 

@@ -20,7 +20,7 @@
                 <li><a href="/services" class="hover:text-green-300">Services</a></li>
                 <li><a href="/products" class="hover:text-green-300">Products</a></li>
                 <li><a href="/agrotourism" class="hover:text-green-300">Agrotourism</a></li>
-                <li><a href="/contact" class="hover:text-green-300">Contact</a></li>
+                 <li><a href="/store" class="hover:text-green-300">Store</a></li>
             </ul>
         </div>
 

@@ -22,7 +22,6 @@
                 <li><a href="/agrotourism" class="hover:text-green-500 transition">Agrotourism</a></li>
                 <li><a href="/store" class="hover:text-green-500 transition">Store</a></li>
                 <li><a href="/news" class="hover:text-green-500 transition">News</a></li>
-                <li><a href="/contact" class="hover:text-green-500 transition">Contact</a></li>
                 <a href="/admin" class="text-red-600 font-semibold">Admin</a>   
 
             </ul>
