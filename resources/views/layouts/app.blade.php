@@ -24,7 +24,6 @@
     <a href="/products">Products</a> |
     <a href="/agrotourism">Agrotourism</a> |
     <a href="/news">News</a> |
-    <a href="/contact">Contact</a>
 </nav>
 
             <!-- Page Heading -->
