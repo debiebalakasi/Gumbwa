@@ -39,6 +39,7 @@
             <main class="flex-grow">
     @yield('content')
 </main>
+@include('footer')
         </div>
     </body>
 </html>
