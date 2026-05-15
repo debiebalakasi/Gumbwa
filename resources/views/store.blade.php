@@ -3,6 +3,7 @@
 @section('content')
 @include('header')
 
+<div class="flex-grow">
 <h1 class="text-3xl font-bold text-center mt-10 mb-6">
     Gumbwa Agro Acres Store
 </h1>
@@ -143,5 +144,6 @@ function hideCheckout() {
         © 2026 Gumbwa Agro Acres | All Rights Reserved
     </div>
 </footer>
+</div>
 
 @endsection
