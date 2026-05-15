@@ -139,11 +139,12 @@ function hideCheckout() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 </script>
+</div>
+
 <footer>
     <div class="bg-green-800 text-white text-center py-4 text-sm">
         © 2026 Gumbwa Agro Acres | All Rights Reserved
     </div>
 </footer>
-</div>
 
 @endsection
