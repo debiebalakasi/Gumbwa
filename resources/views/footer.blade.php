@@ -40,7 +40,9 @@
         <div>
             <h3 class="font-semibold mb-3">Contact Us</h3>
             <p class="text-sm mb-2">📍 Lilongwe, Malawi</p>
-            <p class="text-sm mb-2">📞 +265 888 377 806</p>
+            <a href="tel:+265888377806" class="hover:underline">
+            📞 +265 888 377 806
+            </a>
             <p class="text-sm">
     ✉ 
             <a href="mailto:Inquiries@GumbwaAgroAcres.com" class="hover:underline">
