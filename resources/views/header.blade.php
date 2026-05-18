@@ -1,4 +1,4 @@
-<header class="fixed top-0 left-0 w-full bg-white-80 shadow z-50">
+<header class="fixed top-0 left-0 w-full bg-gray-100 shadow z-50">
     <div class="flex items-center justify-between px-6 py-2">
 
         <!-- LOGO -->
