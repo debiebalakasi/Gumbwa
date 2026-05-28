@@ -3,7 +3,7 @@
 @section('content')
 @include('header')
 
-<div class="flex-grow">
+<div class="flex flex-col min-h-screen">
 <h1 class="text-3xl font-bold text-center mt-10 mb-6">
     Gumbwa Agro Acres Store
 </h1>
