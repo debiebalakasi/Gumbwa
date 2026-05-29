@@ -48,9 +48,9 @@
         <option value="delivered" {{ $order->status == 'delivered' ? 'selected' : '' }}>Delivered</option>
     </select>
 
-    <button class="bg-blue-600 text-white px-3 py-1 rounded ml-2">
-        Update
-    </button>
+   <button type="submit" class="bg-blue-600 text-white px-3 py-1 rounded ml-2">
+    Update
+   </button>
 </form>
     </div>
 @endforeach
