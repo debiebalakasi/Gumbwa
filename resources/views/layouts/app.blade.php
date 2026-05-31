@@ -17,7 +17,8 @@
     </head>
     <body class="font-sans antialiased">
        <div class="min-h-screen flex flex-col bg-gray-100">
-        <nav style="padding:10px; background:#eee;">
+       {{-- 
+<nav style="padding:10px; background:#eee;">
     <a href="/">Home</a> |
     <a href="/about">About</a> |
     <a href="/services">Services</a> |
@@ -25,6 +26,7 @@
     <a href="/agrotourism">Agrotourism</a> |
     <a href="/news">News</a> |
 </nav>
+--}}
 
             <!-- Page Heading -->
             @isset($header)
