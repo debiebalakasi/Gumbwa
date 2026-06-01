@@ -15,7 +15,7 @@ class ProductController extends Controller
     }
 public function store(Request $request)
 {
-      dd('Store method reached');
+      dd($request->all());
     Product::create([
         'name' => $request->name,
         'description' => $request->description,
