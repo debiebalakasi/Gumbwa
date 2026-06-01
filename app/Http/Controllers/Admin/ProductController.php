@@ -15,8 +15,7 @@ class ProductController extends Controller
     }
 public function store(Request $request)
 {
-      dd($request->all());
-    Product::create([
+    $product = Product::create([
         'name' => $request->name,
         'description' => $request->description,
         'price' => $request->price,
@@ -24,7 +23,6 @@ public function store(Request $request)
         'available' => $request->has('available')
     ]);
 
-    return redirect('/admin/products')
-        ->with('success', 'Product added successfully');
+    dd($product);
 }
 }
