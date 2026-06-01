@@ -6,6 +6,7 @@ use App\Http\Controllers\StoreController;
 use App\Http\Controllers\Admin\OrderController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ProductController;
+use Illuminate\Support\Facades\DB;
 
 // Homepage
 Route::get('/', fn() => view('home'));
@@ -39,3 +40,11 @@ Route::post('/admin/orders/{id}/status', [OrderController::class, 'updateStatus'
 Route::get('/admin', [DashboardController::class, 'index']);
 Route::get('/admin/products', [ProductController::class, 'index']);
 Route::post('/admin/products', [ProductController::class, 'store']);
+
+
+Route::get('/db-check', function () {
+    return [
+        'default_connection' => DB::getDefaultConnection(),
+        'database_name' => DB::connection()->getDatabaseName(),
+    ];
+});
